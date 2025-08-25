@@ -2,8 +2,8 @@ name: Check for new RouterOS versions, build and push containers
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * *' # Every day at midnight
+  #schedule:
+  #  - cron: '0 0 * * *' # Every day at midnight
 
 jobs:
   check-and-build:
